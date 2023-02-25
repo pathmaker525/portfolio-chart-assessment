@@ -1,0 +1,27 @@
+html,
+body {
+  width: 100vw;
+  height: 100vh;
+  border: none;
+  outline: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+.app {
+  width: 100%;
+
+  &>h1 {
+    font-family: "Fira Code";
+    text-align: center;
+  }
+
+  &-body {
+    padding: 16px;
+  }
+}
